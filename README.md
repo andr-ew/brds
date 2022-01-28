@@ -1,6 +1,6 @@
 # brds
 
-3 cv recorders, 2 function generators, 3 shift registers, 5 outputs
+3 cv recorders, 2 function generators, 3 shift registers, 5 destinations
 
 # documentation
 
