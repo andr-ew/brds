@@ -19,4 +19,4 @@ gestural unsequencer
   | 2 |   | x |   |       |      |      |
   | 3 |   |   | x |       |      |      |
   
-  ++ local pattern reset
+++ local pattern reset
