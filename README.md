@@ -12,7 +12,7 @@ gestural unsequencer
 
 ## ++
 
-- gate summing modes (global this time, rather than per-output)
+gate summing modes (global this time, rather than per-output)
   - or/and/xor -> not
 
 cv mixing (global)
