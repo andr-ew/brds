@@ -29,3 +29,4 @@ cv mixing (global)
 pattern start/length quantization
 
 consider splitting alt into separate sum & scale pages, for more UI space
+- display truth tables on grid for each sum mode 
