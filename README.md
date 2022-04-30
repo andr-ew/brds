@@ -21,12 +21,12 @@ gate summing modes (global this time, rather than per-output)
   - or/and/xor -> not
 
 cv mixing (global)
-  - max
-  - sum
-  - diff
-  - min
+  - max (>)
+  - sum (+)
+  - diff (-)
+  - min (<)
 
 pattern start/length quantization
 
 consider splitting alt into separate mix & scale pages, for more UI space
-- display truth tables on grid for each mix mode 
+- display truth tables or glyphs on grid for each mix mode 
