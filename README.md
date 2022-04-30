@@ -27,3 +27,5 @@ cv mixing (global)
   - min
 
 pattern start/length quantization
+
+consider splitting alt into separate sum & scale pages, for more UI space
