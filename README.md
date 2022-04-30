@@ -2,7 +2,7 @@
 
 3 cv recorders, 2 function generators, 3 shift registers, 5 destinations
 
-gestural unsequencer
+ungridded pseudo-polyphonic sequencer
 
 # documentation
 
