@@ -6,6 +6,11 @@ gestural unsequencer
 
 # documentation
 
+- **E1-E3:** envelope time, slope, shape
+- **K2:** evelope page
+- **K3:** envelope loop
+- **K1:** alt
+
 ## grid
 
 ![brds grid docs](doc/brds.png)
