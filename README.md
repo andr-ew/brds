@@ -17,7 +17,7 @@ pseudo-polyphonic human sequencer
 
 ## ++
 
-gate summing modes (global this time, rather than per-output)
+gate summing modes (should it be global or per-output ?)
 - or/and/xor -> not
 
 cv mixing (global)
