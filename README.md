@@ -37,6 +37,10 @@ consider playhead control in place of top/bottom keybaord row
 - mlr style, with cuts & sublooping
 - in synced mode, this would be synced to beats/bars (depending on pattern length)
 
+## --
+
+I don't think the gate key makes sense anymore ? for ansyncrounous patterns/gates I think the you would use the right side output gates + the global parameter recorders
+
 ## +?
 
 op-z style non-realtime sequencing
@@ -50,7 +54,7 @@ op-z style non-realtime sequencing
   - when playing
     - shows 8 bars if sequence is longer than 8 beats
     - prev/next skips by bar
-- can add glides per-step just like realtime
+- can add slew per-step just like realtime
 
 arpeggiator
 
