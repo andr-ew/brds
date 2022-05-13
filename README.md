@@ -36,4 +36,4 @@ consider splitting alt into separate mix & scale pages, for more UI space
 
 consider playhead control in place of top/bottom keybaord row
 - mlr style, with cuts & sublooping
-- in synced mode, this would be synced to bars
+- in synced mode, this would be synced to beats/bars (depending on pattern length)
