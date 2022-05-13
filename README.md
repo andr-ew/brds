@@ -39,7 +39,7 @@ consider playhead control in place of top/bottom keybaord row
 
 ## --
 
-I don't think the gate key makes sense anymore ? for ansyncrounous patterns/gates I think the you would use the right side output gates + the global parameter recorders
+I don't think the left gate key makes sense anymore ? for ansyncrounous patterns/gates I think the you would use the right side output gates + the global parameter recorders
 
 ## +?
 
