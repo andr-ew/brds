@@ -33,7 +33,7 @@ pattern start/length quantization (sync mode)
 consider splitting alt into separate mix & scale pages, for more UI space
 - display truth tables or glyphs on grid for each mix mode 
 
-consider playhead control in place of top/bottom keybaord row
+consider playhead control in place of top/bottom keyboard row
 - mlr style, with cuts & sublooping
 - in synced mode, this would be synced to beats/bars (depending on pattern length)
 
