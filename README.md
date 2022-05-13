@@ -5,7 +5,7 @@
 # documentation
 
 - **E1-E3:** envelope time, slope, shape
-- **K2:** evelope focus
+- **K2:** envelope focus
 - **K3:** envelope loop
 - **K1:** alt
 
