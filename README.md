@@ -37,3 +37,10 @@ consider splitting alt into separate mix & scale pages, for more UI space
 consider playhead control in place of top/bottom keybaord row
 - mlr style, with cuts & sublooping
 - in synced mode, this would be synced to beats/bars (depending on pattern length)
+
+## +?
+
+arpegiator
+- in syncronous modes, this would offer some nice quantized stuff to contrast the more freeform layers
+
+op-z style non-realtime sequencing (based around play & paused states)
