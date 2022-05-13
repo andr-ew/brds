@@ -46,9 +46,10 @@ op-z style non-realtime sequencing
   - play + record to play by hand
   - just record to input notes manually
 - playbar
-  - shows 2-bar sections of curent sequence
-  - when playing, will show 8 bars if sequence is longer than 2 bars
-  - prev/next keys
-    - only shown when manual recording
-    - page through 2-bar sections of the sequence
+  - when paused 
+    - shows 2-bar sections of curent sequence
+    - prev/next keys page through 2-bar sections of the sequence when not playing
+  - when playing
+    - shows 8 bars if sequence is longer than 2 bars
+    - prev/next skips by bar
 - can add glides per-step just like realtime
