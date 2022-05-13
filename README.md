@@ -25,6 +25,7 @@ cv mixing (global)
 - sum (+)
 - diff (-)
 - min (<)
+- random (x) (w/ possible probablility parameter)
 
 pattern start/length quantization
 - quantize to selected multiple of a bar. setting quant to 1+ will turn brds into a syncronous instrument
