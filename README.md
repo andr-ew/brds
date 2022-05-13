@@ -1,8 +1,6 @@
 # brds
 
-3 cv recorders, 2 function generators, 3 shift registers, 5 destinations
-
-pseudo-polyphonic human sequencer
+3 sequencers, 2 function generators, 3 shift registers, 5 destinations
 
 # documentation
 
