@@ -27,9 +27,13 @@ cv mixing (global)
 - min (<)
 - random (x) (w/ possible probablility parameter)
 
-pattern start/length quantization
+pattern start/length quantization (sync mode)
 - quantize to selected multiple of a bar. setting quant to 1+ will turn brds into a syncronous instrument
 - is smart about rounding down, so if the pattern ends late and there is no or very little information in the pattern, it will truncate down rather than up
 
 consider splitting alt into separate mix & scale pages, for more UI space
 - display truth tables or glyphs on grid for each mix mode 
+
+consider playhead control in place of top/bottom keybaord row
+- mlr style, with cuts & sublooping
+- in synced mode, this would be synced to bars
