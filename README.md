@@ -38,9 +38,6 @@ consider playhead control in place of top/bottom keybaord row
 
 ## +?
 
-arpegiator
-- in syncronous modes, this would offer some nice quantized stuff to contrast the more freeform layers
-
 op-z style non-realtime sequencing
 - play/pause keys
   - play + record to play by hand
@@ -53,3 +50,6 @@ op-z style non-realtime sequencing
     - shows 8 bars if sequence is longer than 2 bars
     - prev/next skips by bar
 - can add glides per-step just like realtime
+
+arpegiator
+
