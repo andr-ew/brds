@@ -47,7 +47,7 @@ op-z style non-realtime sequencing
   - just record to input notes manually
 - playbar
   - shows 2-bar sections of curent sequence
-  - when playing, may show 8 bars if sequence is longer than 2 bars
+  - when playing, will show 8 bars if sequence is longer than 2 bars
   - prev/next keys
     - only shown when manual recording
     - page through 2-bar sections of the sequence
