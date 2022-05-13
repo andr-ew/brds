@@ -60,3 +60,4 @@ op-z style non-realtime sequencing
 
 arpeggiator
 
+use the crow `public`/distributed computing system so one norns can be hot-swapped between multiple crows running different brds sequences
