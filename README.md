@@ -51,5 +51,5 @@ op-z style non-realtime sequencing
     - prev/next skips by bar
 - can add glides per-step just like realtime
 
-arpegiator
+arpeggiator
 
