@@ -37,6 +37,8 @@ consider playhead control in place of top/bottom keybaord row
 - mlr style, with cuts & sublooping
 - in synced mode, this would be synced to beats/bars (depending on pattern length)
 
+jf coarse (oct) & fine controls (alt menu, probably on the screen)
+
 ## --
 
 I don't think the left gate key makes sense anymore ? for ansyncrounous patterns/gates I think the you would use the right side output gates + the global parameter recorders. would just need one key to enable/disable gates entirelly in the sequence
