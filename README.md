@@ -18,7 +18,10 @@ a 3-track sequencer centered around a 5-output patch bay, with built-in shift-re
 ## notes
 
 gate summing modes (should it be global or per-output ?)
-- or/and/xor -> not
+- or (∨)
+- and (∧)
+- xor (⊻)
+- not (¬)
 
 cv mixing (global)
 - max (>)
