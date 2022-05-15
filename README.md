@@ -32,10 +32,11 @@ cv mixing (global)
 - random (x) (w/ possible probablility parameter)
 
 sync mode
-- live recording is synced to bars (time signature set via steps/bank, default is 8/8)
+- live recording + parameter recorders are synced to bars
+  - time signature set via steps/bank, default is 8/8
   - its smart about rounding down, so if the pattern ends late and there is no or very little information in the pattern, it will truncate down rather than up
-- manual sequences loop through every bank in full, no parially filled bank at the end
-- set idepenently for seqs 1-3, and global patterns
+- manual sequences loop through every bank in full, no partially filled bank at the end
+- set idepenently for seqs 1-3 and parameter recorders
 
 playhead control
 - when playing
