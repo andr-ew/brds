@@ -32,8 +32,9 @@ cv mixing (global)
 - random (x) (w/ possible probablility parameter)
 
 sync mode
-- live recording is synced to bars
-- its smart about rounding down, so if the pattern ends late and there is no or very little information in the pattern, it will truncate down rather than up
+- live recording is synced to bars (time signature set via steps/bank, default is 8/8)
+  - its smart about rounding down, so if the pattern ends late and there is no or very little information in the pattern, it will truncate down rather than up
+- manual sequences loop through every bank in full, no parially filled bank at the end
 - set idepenently for seqs 1-3, and global patterns
 
 playhead control
@@ -47,10 +48,11 @@ playhead control
   - "time" sets the gate time, step time is fixed
 
 sequencing
-- play/pause keys
+- play/rec keys
   - record + play to record live sequence
   - just record to begin a manual sequence, advancing to the next step after each note
   - when paused (regardless of recording) tap a step key to enter that step & edit the note
+  - play/pause is synced to the clock when is sync mode or if the seuquence is manual. an async live sequence runs completely free.
 - playbar
   - shows 8-step sections of curent sequence
   - bank keys page through 8-step sections of the sequence
