@@ -22,6 +22,7 @@ gate summing modes (should it be global or per-output ?)
 - and (∧)
 - xor (⊻)
 - not (¬)
+- random (x)
 
 cv mixing (global)
 - max (>)
