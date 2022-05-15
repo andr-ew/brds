@@ -25,9 +25,9 @@ cv mixing (global)
 - min (<)
 - random (x) (w/ possible probablility parameter)
 
-pattern start/length quantization (sync mode)
-- quantize to selected multiple of a bar. setting quant to 1+ will turn brds into a syncronous instrument
-- is smart about rounding down, so if the pattern ends late and there is no or very little information in the pattern, it will truncate down rather than up
+sync mode
+- live recording is synced to bars
+- its smart about rounding down, so if the pattern ends late and there is no or very little information in the pattern, it will truncate down rather than up
 - set idepenently for seqs 1-3, and global patterns
 
 consider splitting alt into separate mix & scale pages, for more UI space
@@ -35,7 +35,12 @@ consider splitting alt into separate mix & scale pages, for more UI space
 
 consider playhead control in place of top/bottom keyboard row
 - mlr style, with cuts & sublooping
-- 1 step represents a note or rest, so steps are only evenly spaced when manually sequencing
+- in async mode
+  - every step represents a new note, each step length is different
+  - "time" sets the step time, gate time is fixed
+- in sync mode
+  - every step is an even division of the bar
+  - "time" sets the gate time, step time is fixed
 
 jf coarse (oct) & fine controls (alt menu, probably on the screen)
 
@@ -47,8 +52,8 @@ I don't think the left gate key makes sense anymore ? for ansyncrounous patterns
 
 op-z style non-realtime sequencing
 - play/pause keys
-  - play + record to play by hand
-  - just record to input notes manually
+  - record + play to record live seuqeunce
+  - just record to begin a manual sequence (using the playbar & nav keys)
 - playbar
   - when paused 
     - shows 8-beat sections of curent sequence
