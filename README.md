@@ -77,7 +77,7 @@ sequences
   - duration
   - has gate
   - nudge (or, +/- distance to nearest step)
-  - gate duration
+  - gate duration (maybe stored as a ratio of duration)
 - modes
   - live, async: variable duration, always gate, never nudge, variable gate duration
   - live, sync: fixed duration, sometimes gate, variable nudge, variable gate duration
