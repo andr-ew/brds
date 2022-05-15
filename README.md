@@ -71,6 +71,6 @@ sequences
   - gate duration
 - modes
   - live, async: variable duration, always gate, never delay, variable gate duration
-  - live, sync: fixed duration, sometimes gate, variable gate delay, variable gate duration
+  - live, sync: fixed duration, sometimes gate, variable delay, variable gate duration
   - manual, async: variable duration (quantized), sometimes gate, never delay, gate duration = 50% of duration
   - manual, sync: fixed duration, sometimes gate, never gate delay, variable gate duration
