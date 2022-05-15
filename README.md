@@ -73,7 +73,7 @@ variable quantization
 crow input destiations
 - function 1 & 2 gate in
 - output 1-5 transpose (oct or scale degree)
-- clock (global, track 1-3)
+- global clock
 
 ## implementation
 
@@ -88,3 +88,6 @@ sequences
   - live, sync: fixed duration, sometimes gate, variable nudge, variable gate duration
   - manual, async: variable duration (quantized), sometimes gate, never nudge, gate duration = 50% of duration
   - manual, sync: fixed duration, sometimes gate, never nudge, variable gate duration
+- steps are either
+  - iterated over by high resolution, globally synced clock
+  - (for live, async mode) called in a free-running loop with per-step delay
