@@ -43,7 +43,7 @@ playhead control
   - mlr style, with cuts & sublooping
 - in async mode
   - every step represents a new note, each step length is different
-  - "time" sets the step time, gate time is fixed
+  - "time" sets the step time, gate time is a fixed ratio of the length
 - in sync mode
   - every step is an even division of the bar
   - "time" sets the gate time, step time is fixed
@@ -54,9 +54,9 @@ sequencing
   - just record to begin a manual sequence, advancing to the next step after each note
   - when paused (regardless of recording) tap a step key to enter that step & edit the note
   - play/pause is synced to the clock when in sync mode or if the seuquence is manual. an async live sequence runs completely off the clock.
-- playbar
+- step
   - shows 8-step sections of curent sequence
   - bank keys page through 8-step sections of the sequence
-- can add slew per-step just like realtime
+- can add slew per-step just like realtime. the reverse key toggle gate ties.
 
 jf coarse (oct) & fine controls (alt menu, probably on the screen in the mix section)
