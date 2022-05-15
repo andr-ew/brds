@@ -94,4 +94,4 @@ sequences
   - manual, sync: fixed duration, sometimes gate, never nudge, variable gate duration
 - steps are either
   - iterated over by high resolution, globally synced clock
-  - (for live, async mode) called in its own free-running loop with per-step delay
+  - (for live, async mode) called in its own free-running loop, starting a new delay every step
