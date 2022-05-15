@@ -17,7 +17,7 @@ a 3-track sequencer centered around a 5-output patch bay, with built-in shift-re
 
 ## notes
 
-gate summing modes (should it be global or per-output ?)
+gate summing modes (global)
 - or (∨)
 - and (∧)
 - xor (⊻)
@@ -36,19 +36,15 @@ sync mode
 - its smart about rounding down, so if the pattern ends late and there is no or very little information in the pattern, it will truncate down rather than up
 - set idepenently for seqs 1-3, and global patterns
 
-consider splitting alt into separate mix & scale pages, for more UI space
-- display truth tables or glyphs on grid for each mix mode 
-
-consider playhead control in place of top/bottom keyboard row
-- mlr style, with cuts & sublooping
+playhead control
+- when playing
+  - mlr style, with cuts & sublooping
 - in async mode
   - every step represents a new note, each step length is different
   - "time" sets the step time, gate time is fixed
 - in sync mode
   - every step is an even division of the bar
   - "time" sets the gate time, step time is fixed
-
-jf coarse (oct) & fine controls (alt menu, probably on the screen in the mix section)
 
 sequencing
 - play/pause keys
@@ -59,3 +55,5 @@ sequencing
   - shows 8-step sections of curent sequence
   - bank keys page through 8-step sections of the sequence
 - can add slew per-step just like realtime
+
+jf coarse (oct) & fine controls (alt menu, probably on the screen in the mix section)
