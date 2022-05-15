@@ -57,7 +57,3 @@ op-z style non-realtime sequencing
     - shows 8 bars if sequence is longer than 8 beats
     - prev/next skips by bar
 - can add slew per-step just like realtime
-
-arpeggiator
-
-use the crow `public`/distributed computing system so one norns can be hot-swapped between multiple crows running different sets of sequences
