@@ -66,7 +66,7 @@ jf coarse (oct) & fine controls (alt menu, probably on the screen in the mix sec
 variable quantization
 - E1-3 for each track on the sync alt page
 - in any mode, crossfades every step's "nudge" value between 0 and some random number
-  - for a live, synced sequence only this value will start at 100%
+  - for a live, synced sequence only - this value will start at 100%
 
 ## implimentation
 
