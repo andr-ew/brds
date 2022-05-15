@@ -1,7 +1,8 @@
 # brds
 
-3 sequencers, 2 function generators, 3 shift registers, 5 destinations.
-norns, grid, crow & just friends
+3 sequences, 2 function generators, 3 shift registers, 5 destinations. norns, grid, crow & just friends
+
+a 3-track sequencer centered around a 5-output patch bay, with built-in shift-registers (for pseudo-polyphony) and muti-mode CV & gate mixing. each output addresses either a crow voltage + internal function generator, or an individual voice of just friends. sequences are input via an isometric keyboard, recorded live or through step-by-step editing. timing on each track can be both syncronous or asynronous, quantized or unquantized.
 
 # documentation
 
@@ -14,10 +15,14 @@ norns, grid, crow & just friends
 
 ![brds grid docs](doc/brds.png)
 
-## ++
+## notes
 
 gate summing modes (should it be global or per-output ?)
-- or/and/xor -> not
+- or (∨)
+- and (∧)
+- xor (⊻)
+- not (¬)
+- random (x)
 
 cv mixing (global)
 - max (>)
@@ -45,21 +50,12 @@ consider playhead control in place of top/bottom keyboard row
 
 jf coarse (oct) & fine controls (alt menu, probably on the screen)
 
-## --
-
-I don't think the left gate key makes sense anymore ? for ansyncrounous patterns/gates I think the you would use the right side output gates + the global parameter recorders. would just need one key to enable/disable gates entirelly in the sequence
-
-## +?
-
-op-z style non-realtime sequencing
+sequencing
 - play/pause keys
-  - record + play to record live seuqeunce
-  - just record to begin a manual sequence (using the playbar & nav keys)
+  - record + play to record live sequence
+  - just record to begin a manual sequence, advancing to the next step after each note
+  - when paused (regardless of recording) tap a step key to enter that step & edit the note
 - playbar
-  - when paused 
-    - shows 8-beat sections of curent sequence
-    - prev/next keys page through 2-bar sections of the sequence when not playing
-  - when playing
-    - shows 8 bars if sequence is longer than 8 beats
-    - prev/next skips by bar
+  - shows 8-step sections of curent sequence
+  - bank keys page through 8-step sections of the sequence
 - can add slew per-step just like realtime
