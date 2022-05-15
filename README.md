@@ -70,6 +70,11 @@ variable quantization
 - in any mode, crossfades every step's "nudge" value between 0 and some random number
   - for a live, synced sequence only - this value will start at 100%
 
+crow input destiations
+- function 1 & 2 gate in
+- output 1-5 transpose (oct or scale degree)
+- clock (global, track 1-3)
+
 ## implementation
 
 sequences
