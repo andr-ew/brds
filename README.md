@@ -70,7 +70,7 @@ variable quantization
 - in any mode, crossfades every step's "nudge" value between 0 and some random number
   - for a live, synced sequence only - this value will start at 100%
 
-## implimentation
+## implementation
 
 sequences
 - data stored in each step (regardless of mode)
