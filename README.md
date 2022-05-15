@@ -25,13 +25,15 @@ gate summing modes (global)
 - xor (⊻)
 - not (¬)
 - random (x)
+  - coin toss each new incoming step, scaled by the probability param
 
 cv mixing (global)
 - max (>)
 - sum (+)
 - diff (-)
 - min (<)
-- random (x) (w/ possible probablility parameter)
+- random (x)
+  - coin toss each new incoming step, scaled by the probability param
 
 sync mode
 - live recording + parameter recorders are synced to bars
