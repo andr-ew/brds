@@ -48,7 +48,7 @@ consider playhead control in place of top/bottom keyboard row
   - every step is an even division of the bar
   - "time" sets the gate time, step time is fixed
 
-jf coarse (oct) & fine controls (alt menu, probably on the screen)
+jf coarse (oct) & fine controls (alt menu, probably on the screen in the mix section)
 
 sequencing
 - play/pause keys
