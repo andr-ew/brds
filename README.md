@@ -35,7 +35,7 @@ consider splitting alt into separate mix & scale pages, for more UI space
 
 consider playhead control in place of top/bottom keyboard row
 - mlr style, with cuts & sublooping
-- in synced mode, this would be synced to beats/bars (depending on pattern length)
+- 1 step represents a note or rest, so steps are only evenly spaced when in sync mode
 
 jf coarse (oct) & fine controls (alt menu, probably on the screen)
 
