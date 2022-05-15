@@ -1,6 +1,7 @@
 # brds
 
 3 sequencers, 2 function generators, 3 shift registers, 5 destinations
+norns, grid, crow & just friends
 
 # documentation
 
