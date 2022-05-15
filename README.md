@@ -60,3 +60,11 @@ sequencing
 - can add slew per-step just like realtime. the reverse key toggle gate ties.
 
 jf coarse (oct) & fine controls (alt menu, probably on the screen in the mix section)
+
+## implimentation
+
+data stored in each step (regardless of mode)
+- duration
+- has gate
+- gate delay
+- gate duration
