@@ -63,6 +63,8 @@ sequencing
   - bank keys page through 8-step sections of the sequence
 - can add slew per-step just like realtime. the reverse key toggle gate ties.
 
+# ++
+
 jf coarse (oct) & fine controls (alt menu, probably on the screen in the mix section)
 
 variable quantization
@@ -74,6 +76,8 @@ crow input destiations
 - function 1 & 2 gate in
 - output 1-5 transpose (oct or scale degree)
 - global clock
+
+option for scale degrees to be unique per-track or applied to all.
 
 ## implementation
 
