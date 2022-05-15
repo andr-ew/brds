@@ -53,7 +53,7 @@ sequencing
   - record + play to record live sequence
   - just record to begin a manual sequence, advancing to the next step after each note
   - when paused (regardless of recording) tap a step key to enter that step & edit the note
-  - play/pause is synced to the clock when is sync mode or if the seuquence is manual. an async live sequence runs completely off the clock.
+  - play/pause is synced to the clock when in sync mode or if the seuquence is manual. an async live sequence runs completely off the clock.
 - playbar
   - shows 8-step sections of curent sequence
   - bank keys page through 8-step sections of the sequence
