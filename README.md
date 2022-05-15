@@ -17,6 +17,8 @@ a 3-track sequencer centered around a 5-output patch bay, with built-in shift-re
 
 ## notes
 
+patterns shared between tracks (maybe)
+
 gate summing modes (global)
 - or (∨)
 - and (∧)
@@ -61,16 +63,21 @@ sequencing
 
 jf coarse (oct) & fine controls (alt menu, probably on the screen in the mix section)
 
+variable quantization
+- E1-3 for each track on the sync alt page
+- in any mode, crossfades every steps "nudge" value between 0 and some random number
+  - for a live, synced sequence only this value will start at 100%
+
 ## implimentation
 
 sequences
 - data stored in each step (regardless of mode)
   - duration
   - has gate
-  - gate delay
+  - nudge (or, +/- distance to nearest step)
   - gate duration
 - modes
-  - live, async: variable duration, always gate, never delay, variable gate duration
-  - live, sync: fixed duration, sometimes gate, variable delay, variable gate duration
-  - manual, async: variable duration (quantized), sometimes gate, never delay, gate duration = 50% of duration
-  - manual, sync: fixed duration, sometimes gate, never gate delay, variable gate duration
+  - live, async: variable duration, always gate, never nudge, variable gate duration
+  - live, sync: fixed duration, sometimes gate, variable nudge, variable gate duration
+  - manual, async: variable duration (quantized), sometimes gate, never nudge, gate duration = 50% of duration
+  - manual, sync: fixed duration, sometimes gate, never nudge, variable gate duration
