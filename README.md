@@ -43,6 +43,7 @@ sync mode
 - set idepenently for seqs 1-3 and parameter recorders
 
 playhead control
+- current bank is dim component behind brighter step component
 - when playing
   - mlr style, with cuts & sublooping
   - while a step is held (for sublooping), steps component grows to fill the bottom row of the grid
