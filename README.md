@@ -102,7 +102,7 @@ sequences
 - modes
   - live, async: variable duration, always gate, never nudge, variable gate duration
   - live, sync: fixed duration, sometimes gate, variable nudge, variable gate duration
-    - not sure what to do if the user tries to play two notes in one step. I guess we just keep the first one only ? can't play too fast I guess
+    - not sure what to do if the user tries to play two notes in one step. just keep the first one only ? can't play too fast I guess
   - manual, async: variable duration (quantized), sometimes gate, never nudge, gate duration = 50% of duration
   - manual, sync: fixed duration, sometimes gate, never nudge, variable gate duration
 - steps are either
