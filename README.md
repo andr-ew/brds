@@ -45,6 +45,7 @@ sync mode
 playhead control
 - when playing
   - mlr style, with cuts & sublooping
+  - while a step is held (for sublooping), steps component grows to fill the bottom row of the grid
 - in async mode
   - every step represents a new note, each step length is different
   - "time" sets the step time, gate time is a fixed ratio of the length
@@ -92,7 +93,11 @@ maybe bank keys should be a general prev/next
 - hold both keys to switch between bank/step scope
 - copy/insert actions:
   - insert blank step (rest): step + next, or just next while recording
-  - copy step: hold keyboard note + next (some for recording/not recording). will add a gate tie, so it's basically like increasing note duration
+  - copy step (tie): hold keyboard note + next (same for recording/not recording). 
+    - will add a gate tie, so it's basically like increasing note duration
+    - will offset remaining steps in sequence
+  - copy step (repeat): while sequencer is stopped, hold step + step insert repetitions between those steps. 
+    - while a step is held, the steps component grows to fill the bottom row of the grid
 
 modulo option in sum & diff mix modes
 - wrap around a single octave or the full octave range
