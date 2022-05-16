@@ -75,6 +75,7 @@ variable quantization
 - E1-3 for each track on the sync alt page
 - in any mode, crossfades every step's "nudge" value between 0 and some random number
   - for a live, synced sequence only - this value will start at 100%
+- maybe there could be a separate parameter for even & odd values, so for a step sequence, the odd value would essentially add swing
 
 crow input destiations
 - function 1 & 2 gate in
