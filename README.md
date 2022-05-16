@@ -90,6 +90,9 @@ maybe bank keys should be a general prev/next
     - next to add a rest
     - prev to go back to the last step if u made a mistake
 - hold both keys to switch between bank/step scope
+- copy/insert actions:
+  - insert blank step (rest): step + next, or just next while recording
+  - copy step: hold keyboard note + next (some for recording/not recording). will add a gate tie, so it's basically like increasing note duration
 
 ## implementation
 
@@ -99,6 +102,8 @@ sequences
   - has gate
   - nudge (or, +/- distance to nearest step)
   - gate duration (maybe stored as a ratio of duration)
+  - slew amount
+  - gate tie
 - modes
   - live, async: variable duration, always gate, never nudge, variable gate duration
   - live, sync: fixed duration, sometimes gate, variable nudge, variable gate duration
