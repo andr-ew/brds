@@ -52,6 +52,8 @@ playhead control
   - every step is an even division of the bar
   - "time" sets the gate time, step time is fixed
 
+alternative: time sets gate length in all modes, sync + async are both fixed step length (this might make for more intuitive seuqencing/editing)
+
 sequencing
 - play/rec keys
   - record + play to record live sequence
