@@ -94,6 +94,10 @@ maybe bank keys should be a general prev/next
   - insert blank step (rest): step + next, or just next while recording
   - copy step: hold keyboard note + next (some for recording/not recording). will add a gate tie, so it's basically like increasing note duration
 
+modulo option in sum & diff mix modes
+- wrap around a single octave or the full octave range
+- maybe that middle row (currently probability) should just be a general parameter section for the cv mix modes
+
 ## implementation
 
 sequences
