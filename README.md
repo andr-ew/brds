@@ -84,7 +84,7 @@ maybe bank keys should be a general prev/next
   - while recording 
     - next to add a rest
     - prev to go back to the last step if u made a mistake
-  - hold both keys to switch between bank/step scope
+- hold both keys to switch between bank/step scope
 
 ## implementation
 
