@@ -79,6 +79,13 @@ crow input destiations
 
 option for scale degrees to be unique per-track or applied to all.
 
+maybe bank keys should be a general prev/next
+- default: prev/next step
+  - while recording 
+    - next to add a rest
+    - prev to go back to the last step if u made a mistake
+  - hold both keys to switch between bank/step scope
+
 ## implementation
 
 sequences
