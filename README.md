@@ -117,7 +117,7 @@ modulo option in sum & diff mix modes
 
 change "time" to duration, which feels more specific to both uses. so for a playing sequence, left would be faster, right would be slower.
 
-gate fwd
+gate fwd / alt alt menu stuff
 - hold key to enable/disable gates for that track on a per-output basis
 - it really wouldn't be that bad of an idea to move this whole process to the alt menu
   - maybe combine with the sync screen
@@ -125,6 +125,8 @@ gate fwd
   - I like this idea !
   - we'll want to shift things around to put the page control on the bottom left
   - actuallyyyy: even better: we can decrease the pattern control to 5 patterns (I like less of them) and then take up 3 keys, so you just hold a key to bring up that page. perfect !!
+
+derp I guess the sync setting for tracks should work on a pattern-by-pattern basis. maybe we should bring this setting to the main page (drop another pattern slot)
 
 ## implementation
 
