@@ -124,6 +124,7 @@ gate fwd
 - idea: mix the whole thing up by turning this key as the alt key (instead of K1). just so happens that it's open on every alt screen currently
   - I like this idea !
   - we'll want to shift things around to put the page control on the bottom left
+  - actuallyyyy: even better: we can decrease the pattern control to 5 patterns (I like less of them) and then take up 3 keys, so you just hold a key to bring up that page. perfect !!
 
 ## implementation
 
