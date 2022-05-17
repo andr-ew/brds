@@ -57,6 +57,7 @@ playhead control
 - alternative: time sets gate length in all modes, sync + async are both fixed step length
   - this might make for more intuitive seuqencing/editing
     - i.e. copy the step + tie in any mode to increase note length
+  - I think this is deffo better
 
 sequencing
 - play/rec keys
@@ -87,23 +88,31 @@ crow input destiations
 option for scale degrees to be unique per-track or applied to all.
 
 maybe bank keys should be a general prev/next
+- yes
 - default: prev/next step
   - while recording 
     - next to add a rest
     - prev to go back to the last step if u made a mistake
 - hold both keys to switch between bank/step scope
-- copy/insert actions:
+
+step edit actions:
   - insert blank step (rest): step + next, or just next while recording
   - copy step (tie): hold keyboard note + next (same for recording/not recording). 
     - will add a gate tie, so it's basically like increasing note duration
     - will offset remaining steps in sequence
   - copy step (repeat): while sequencer is stopped, hold step + step insert repetitions between those steps. 
     - while a step is held, the steps component grows to fill the bottom row of the grid
+  - change note into a rest: remove the note on the keyboard
+  - clear step: hold the step (entering the extended steps screen) and tap the remove button on the right side of grid (maybe its a glyph)
+  - hold rec to clear the pattern
+  - hold two pattern keys to copy pattern
 
 modulo option in sum & diff mix modes
 - wrap around a single octave or the full octave range
 - maybe that middle row (currently probability) should just be a general parameter section for the cv mix modes
 - or maybe there should be a separate modulo glyph - this would be more intuitive. consider replacing difference or min or whatever ends up being least interesting. I bet min won't be all that great (?)
+
+change "time" to duration, which feels more specific to both uses. so for a playing sequence, left would be faster, right would be slower.
 
 ## implementation
 
