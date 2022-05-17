@@ -123,6 +123,7 @@ gate fwd
   - maybe combine with the sync screen
 - idea: mix the whole thing up by turning this key as the alt key (instead of K1). just so happens that it's open on every alt screen currently
   - I like this idea !
+  - we'll want to shift things around to put the page control on the bottom left
 
 ## implementation
 
