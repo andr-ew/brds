@@ -103,6 +103,7 @@ maybe bank keys should be a general prev/next
 modulo option in sum & diff mix modes
 - wrap around a single octave or the full octave range
 - maybe that middle row (currently probability) should just be a general parameter section for the cv mix modes
+- or maybe there should be a separate modulo glyph - this would be more intuitive. consider replacing difference or min or whatever ends up being least interesting. I bet min won't be all that great (?)
 
 ## implementation
 
