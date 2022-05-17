@@ -89,11 +89,13 @@ option for scale degrees to be unique per-track or applied to all.
 
 maybe bank keys should be a general prev/next
 - yes
-- default: prev/next step
-  - while recording 
-    - next to add a rest
-    - prev to go back to the last step if u made a mistake
-- hold both keys to switch between bank/step scope
+- while recording 
+  - next to add a rest
+  - prev to go back to the last step if u made a mistake
+- while not playing
+  - hold both keys to switch between bank/step scope, to navigate around the sequence while editing
+- while playing
+  - prev/next is fixed in the bank scope, and pressing the key moves the playhead to the start of that bank
 
 step edit actions:
   - insert blank step (rest): step + next, or just next while recording
@@ -103,7 +105,8 @@ step edit actions:
   - copy step (repeat): while sequencer is stopped, hold step + step insert repetitions between those steps. 
     - while a step is held, the steps component grows to fill the bottom row of the grid
   - change note into a rest: remove the note on the keyboard
-  - clear step: hold the step (entering the extended steps screen) and tap the remove button on the right side of grid (maybe its a glyph)
+  - clear step: hold the step (entering the extended steps screen) and tap the remove button on the right side of grid 
+    - maybe its an (x) glyph
   - hold rec to clear the pattern
   - hold two pattern keys to copy pattern
 
