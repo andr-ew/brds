@@ -135,7 +135,10 @@ crow input destiations
 - global clock
 - UI either in the mix menu or as the K1 alt screen (I like mix menu)
 
+## --
 
+thinking about removing the gate mix modes altogether, bacuse they don't really seem all that interesting when using sequences, cold mac esists, and the most important use case (and) is covered pretty well by gate forwarding
+- the benefit is we can now combine the mix & track pages to reduce clutter
 
 ## implementation
 
