@@ -149,3 +149,4 @@ sequences
   - (for live, async mode) called in its own free-running loop, starting a new delay every step
 - option: could even consider implimenting live+asnync just like live+sync, except allowing partial banks. by the time I've done everything else, this might just be easier.
   - in this sense, the sync button simply controls whether the sequence loops through whole banks or loops back at the last step
+  - also allows quantization for async, which is more intutive
