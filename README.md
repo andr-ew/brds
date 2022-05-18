@@ -69,22 +69,6 @@ sequencing
   - shows 8-step sections of curent sequence
   - bank keys page through 8-step sections of the sequence
 - can add slew per-step just like realtime. the reverse key toggle gate ties.
-
-# ++
-
-jf coarse (oct) & fine controls (alt menu, probably on the screen in the mix section)
-
-variable quantization
-- E1-3 for each track on the sync alt page
-- in any mode, crossfades every step's "nudge" value between 0 and some random number
-  - for a live, synced sequence only - this value will start at 100%
-- maybe there could be a separate parameter for even & odd values, so for a step sequence, the odd value would essentially add swing
-
-crow input destiations
-- function 1 & 2 gate in
-- output 1-5 transpose (oct or scale degree)
-- global clock
-
 option for scale degrees to be unique per-track or applied to all.
 
 maybe bank keys should be a general prev/next
@@ -127,6 +111,27 @@ gate fwd / alt alt menu stuff
   - actuallyyyy: even better: we can decrease the pattern control to 5 patterns (I like less of them) and then take up 3 keys, so you just hold a key to bring up that page. perfect !!
 
 derp I guess the sync setting for tracks should work on a pattern-by-pattern basis. maybe we should bring this setting to the main page (drop another pattern slot)
+
+# ++
+
+jf settings 
+- coarse (oct) & fine controls
+- synth mode switch here (when off brds has no effect on jf)
+- maybe put this in the mix menu or perhaps as the K1 alt screen (I like k1)
+
+variable quantization
+- E1-3 for each track on the track menu
+- in any mode, crossfades every step's "nudge" value between 0 and some random number
+  - for a live, synced sequence only - this value will start at 100%
+- maybe there could be a separate parameter for even & odd values, so for a step sequence, the odd value would essentially add swing
+
+crow input destiations
+- function 1 & 2 gate in
+- output 1-5 transpose (oct or scale degree)
+- global clock
+- UI either in the mix menu or as the K1 alt screen (I like mix menu)
+
+
 
 ## implementation
 
