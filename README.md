@@ -17,8 +17,6 @@ a 3-track sequencer centered around a 5-output patch bay, with built-in shift-re
 
 ## notes
 
-patterns shared between tracks (maybe)
-
 cv mixing (global)
 - max (>)
 - sum (+)
@@ -84,7 +82,8 @@ step edit actions:
   - clear step: hold the step (entering the extended steps screen) and tap the remove button on the right side of grid 
     - maybe its an (x) glyph
   - hold rec to clear the pattern
-  - hold two pattern keys to copy pattern
+  - copy pattern: hold src pattern key, tap destination pattern
+    - copy pattern between tracks, hold src pattern, change track, tap destination pattern (or just release to write to the same slot)
 
 modulo option in sum & diff mix modes
 - wrap around a single octave or the full octave range
