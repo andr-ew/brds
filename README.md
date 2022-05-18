@@ -96,13 +96,17 @@ step edit actions:
 
 modulo option in sum & diff mix modes
 - wrap around a single octave or the full octave range
-- maybe that middle row (currently probability) should just be a general parameter section for the cv mix modes
+  - alt: modulo parameter specifies an octave value (1-5) and a scale degree value (1 - # of scale degrees)
+- maybe that middle row (currently probability) should just be a general parameter section for the cv mix modes (yes)
 - or maybe there should be a separate modulo glyph - this would be more intuitive. consider replacing difference or min or whatever ends up being least interesting. I bet min won't be all that great (?)
 
 change "time" to duration, which feels more specific to both uses. so for a playing sequence, left would be faster, right would be slower.
 
 gate fwd / alt alt menu stuff
 - hold key to enable/disable gates for that track on a per-output basis
+  - I think gate forward should interact with the mix process a bit
+    - when gate forwarding is on, CV only contributes to the mix when gate is high
+    - when gate forward is off, CV always contributes to the mix
 - it really wouldn't be that bad of an idea to move this whole process to the alt menu
   - maybe combine with the sync screen
 - idea: mix the whole thing up by turning this key as the alt key (instead of K1). just so happens that it's open on every alt screen currently
