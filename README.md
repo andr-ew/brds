@@ -161,4 +161,4 @@ sequences
   - also allows quantization for async, which is more intutive
   - the downside is that the loop length in this mode would be quantized to steps, but I think I'm OK with this
   - also, this simplified definition of "sync" would make this more of a playback setting rather than a record setting, so now it makes sense to have it be a track level option rather than a pattern level option (so we can move it off the main page & into the tracks menu)
-  - be sure to use base 0 logic throughout the keyboard so the CV mix mode maths work as intended
+- be sure to use base 0 logic throughout the keyboard so the CV mix mode maths work as intended
