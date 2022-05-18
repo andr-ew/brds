@@ -19,14 +19,6 @@ a 3-track sequencer centered around a 5-output patch bay, with built-in shift-re
 
 patterns shared between tracks (maybe)
 
-gate summing modes (global)
-- or (∨)
-- and (∧)
-- xor (⊻)
-- not (¬)
-- random (x)
-  - coin toss each new incoming step, scaled by the probability param
-
 cv mixing (global)
 - max (>)
 - sum (+)
@@ -134,12 +126,6 @@ crow input destiations
 - output 1-5 transpose (oct or scale degree)
 - global clock
 - UI either in the mix menu or as the K1 alt screen (I like mix menu)
-
-## --
-
-thinking about removing the gate mix modes altogether, bacuse they don't really seem all that interesting when using sequences, cold mac esists, and the most important use case (and) is covered pretty well by gate forwarding
-- the benefit is we can now combine the mix & track pages to reduce clutter
-- "modes" page ? "alt" page ? "options" ?
 
 ## implementation
 
