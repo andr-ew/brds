@@ -150,3 +150,4 @@ sequences
 - option: could even consider implimenting live+asnync just like live+sync, except allowing partial banks. by the time I've done everything else, this might just be easier.
   - in this sense, the sync button simply controls whether the sequence loops through whole banks or loops back at the last step
   - also allows quantization for async, which is more intutive
+  - the downside is that the loop length in this mode would be quantized to steps, but I think I'm OK with this
