@@ -112,6 +112,8 @@ derp I guess the sync setting for tracks should work on a pattern-by-pattern bas
 
 consider allowing unique mix mode per-output
 - there's space in the UI if only 1 glyph is displayed at a time
+- also allows for 5x5 glyphs rather than 3x3
+- options screen is starting to get a little crowded with all the 3x3 glyphs
 
 jf settings 
 - coarse (oct) & fine controls
