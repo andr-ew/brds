@@ -25,6 +25,7 @@ cv mixing (global)
 - random (x)
   - coin toss each new incoming step, scaled by the probability param
 
+
 sync mode
 - live recording + parameter recorders are synced to bars
   - time signature set via steps/bank, default is 8/8
@@ -108,6 +109,9 @@ gate fwd / alt alt menu stuff
 derp I guess the sync setting for tracks should work on a pattern-by-pattern basis. maybe we should bring this setting to the main page (drop another pattern slot)
 
 # ++
+
+consider allowing unique mix mode per-output
+- there's space in the UI if only 1 glyph is displayed at a time
 
 jf settings 
 - coarse (oct) & fine controls
