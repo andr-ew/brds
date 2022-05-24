@@ -80,6 +80,7 @@ step edit actions:
   - copy step (repeat): while sequencer is stopped, hold step + step insert repetitions between those steps. 
     - while a step is held, the steps component grows to fill the bottom row of the grid
   - change note into a rest: remove the note on the keyboard
+    - I think that moving to a step should actually "play" through all the notes in the step once, so we need a new action for this. step focus menu would be a fine place
   - clear step: hold the step (entering the extended steps screen) and tap the remove button on the right side of grid 
     - maybe its an (x) glyph
   - hold rec to clear the pattern
@@ -135,25 +136,25 @@ crow input destiations
 ## implementation
 
 sequences
-- data stored in each step (regardless of mode)
-  - duration
-  - has gate
-  - nudge (or, +/- distance to nearest step)
-  - gate duration (maybe stored as a ratio of duration)
-  - slew amount
-  - gate tie
-- modes
-  - live, async: variable duration, always gate, never nudge, variable gate duration
-  - live, sync: fixed duration, sometimes gate, variable nudge, variable gate duration
-    - not sure what to do if the user tries to play two notes in one step. just keep the first one only ? can't play too fast I guess
-  - manual, async: either variable duration (quantized) or fixed, sometimes gate, never nudge, gate duration = 50% of duration or vairable
-  - manual, sync: fixed duration, sometimes gate, never nudge, variable gate duration
+- data stored for each step (regardless of mode)
+  - notes
+    - x position
+    - y position
+    - duration (% of step duration)
+    - slew amount
+    - nudge (first note uses step nudge (so first note is 0))
+  - nudge (or, +/- distance to nearest step, % of step duration)
+- each step may contain multiple notes, which are sorted in order in an array
+- if note nudge + note durations + note nudges >= step size then last gate down in skipped (gate tie)
 - steps are either
   - iterated over by high resolution, globally synced clock
   - (for live, async mode) called in its own free-running loop, starting a new delay every step
-- option: could even consider implimenting live+asnync just like live+sync, except allowing partial banks. by the time I've done everything else, this might just be easier.
+- option: could even consider implimenting live+async just like live+sync, except allowing partial banks. by the time I've done everything else, this might just be easier.
+  - yes
   - in this sense, the sync button simply controls whether the sequence loops through whole banks or loops back at the last step
+    - also, this simplified definition of "sync" would make this more of a playback setting rather than a record setting, so now it makes sense to have it be a track level option rather than a pattern level option (so we can move it off the main page & into the tracks menu)
   - also allows quantization for async, which is more intutive
-  - the downside is that the loop length in this mode would be quantized to steps, but I think I'm OK with this
-  - also, this simplified definition of "sync" would make this more of a playback setting rather than a record setting, so now it makes sense to have it be a track level option rather than a pattern level option (so we can move it off the main page & into the tracks menu)
+  - the downsides
+    - the loop length in this mode would be quantized to steps, but I think I'm OK with this
+    - we'll definitely want to figure out multiple CVs/gates per-step, or else playing quickly just won't be possible at a low or normal tempos. I don't think it's anything to be spooked about though
 - be sure to use base 0 logic throughout the keyboard so the CV mix mode maths work as intended
