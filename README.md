@@ -2,7 +2,7 @@
 
 3 sequences, 2 function generators, 3 shift registers, 5 destinations. norns, grid, crow & just friends
 
-a 3-track sequencer centered around a 5-output patch bay, with built-in shift-registers (for pseudo-polyphony) and muti-mode CV & gate mixing. each output addresses either a crow voltage + function generator, or an individual voice of just friends. sequences are input via an isometric keyboard, recorded live or through step-by-step editing. timing on each track can be syncronous or asynronous, quantized or unquantized.
+a 3-track sequencer centered around a 5-output patch bay, with built-in shift-registers (for pseudo-polyphony) and muti-mode CV mixing. each output addresses either a crow voltage + function generator, internal engine, or an individual voice of just friends. sequences are input via an isometric keyboard, recorded live or through step-by-step editing. timing on each track can be syncronous or asynronous, quantized or unquantized.
 
 # documentation
 
