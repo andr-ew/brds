@@ -24,6 +24,7 @@ cv mixing (global)
 - min (<)
 - random (x)
   - coin toss each new incoming step, scaled by the probability param
+- modulo (%)
 
 
 sync mode
