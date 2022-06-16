@@ -134,6 +134,8 @@ crow input destiations
 - global clock
 - UI either in the mix menu or as the K1 alt screen (I like mix menu)
 
+engine output (orgn)
+
 ## implementation
 
 sequences
