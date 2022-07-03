@@ -38,17 +38,8 @@ playhead control
 - when playing
   - mlr style, with cuts & sublooping
   - while a step is held (for sublooping), steps component grows to fill the bottom row of the grid
-- in async mode
-  - every step represents a new note, each step length is different
-  - "time" sets the step time, gate time is a fixed ratio of the length
-- in sync mode
-  - every step is an even division of the bar
-  - "time" sets the gate time, step time is fixed
 
-- alternative: time sets gate length in all modes, sync + async are both fixed step length
-  - this might make for more intuitive seuqencing/editing
-    - i.e. copy the step + tie in any mode to increase note length
-  - I think this is deffo better
+time sets gate length
 
 sequencing
 - play/rec keys
