@@ -39,8 +39,6 @@ playhead control
   - mlr style, with cuts & sublooping
   - while a step is held (for sublooping), steps component grows to fill the bottom row of the grid
 
-time sets gate length
-
 sequencing
 - play/rec keys
   - record + play to record live sequence
