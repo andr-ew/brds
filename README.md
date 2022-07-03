@@ -29,7 +29,6 @@ cv mixing (global)
 
 sync mode
 - live recording + parameter recorders are synced to bars
-  - time signature set via steps/bank, default is 8/8
   - its smart about rounding down, so if the pattern ends late and there is no or very little information in the pattern, it will truncate down rather than up
 - manual sequences loop through every bank in full, no partially filled bank at the end
 - set idepenently for seqs 1-3 and parameter recorders
@@ -94,8 +93,6 @@ modulo option in sum & diff mix modes
 - maybe that middle row (currently probability) should just be a general parameter section for the cv mix modes (yes)
 - or maybe there should be a separate modulo glyph - this would be more intuitive. consider replacing difference or min or whatever ends up being least interesting. I bet min won't be all that great (?)
 
-change "time" to duration, which feels more specific to both uses. so for a playing sequence, left would be faster, right would be slower.
-
 gate fwd / alt alt menu stuff
 - hold key to enable/disable gates for that track on a per-output basis
   - I think gate forward should interact with the mix process a bit
@@ -139,25 +136,23 @@ engine output (orgn)
 ## implementation
 
 sequences
-- data stored for each step (regardless of mode)
-  - notes
-    - x position
-    - y position
-    - duration (% of step duration)
-    - slew amount
-    - nudge (first note uses step nudge (so first note is 0))
-  - nudge (or, +/- distance to nearest step, % of step duration)
-- each step may contain multiple notes, which are sorted in order in an array
-- if note nudge + note durations + note nudges >= step size then last gate down in skipped (gate tie)
+- data stored in each step (regardless of mode)
+  - x
+  - y
+  - step duration
+  - has gate
+  - gate duration (maybe stored as a ratio of duration)
+  - slew amount
+  - gate tie
+- modes
+  - live: variable duration, always gate, never nudge, variable gate duration
+  - manual: fixed duration, sometimes gate, never nudge, variable gate duration
 - steps are either
-  - iterated over by high resolution, globally synced clock
-  - (for live, async mode) called in its own free-running loop, starting a new delay every step
-- option: could even consider implimenting live+async just like live+sync, except allowing partial banks. by the time I've done everything else, this might just be easier.
-  - yes
-  - in this sense, the sync button simply controls whether the sequence loops through whole banks or loops back at the last step
-    - also, this simplified definition of "sync" would make this more of a playback setting rather than a record setting, so now it makes sense to have it be a track level option rather than a pattern level option (so we can move it off the main page & into the tracks menu)
-  - also allows quantization for async, which is more intutive
-  - the downsides
-    - the loop length in this mode would be quantized to steps, but I think I'm OK with this
-    - we'll definitely want to figure out multiple CVs/gates per-step, or else playing quickly just won't be possible at a low or normal tempos. I don't think it's anything to be spooked about though
+  - manual: iterated over by high resolution, globally synced clock
+  - live: called in its own free-running loop, starting a new delay every step
+- sync mode
+  - delays are run using clock.sync
+  - step durations are stored in beats
+  - final step(s) durations are rounded down to the nearest bar, the total sum of step durations should be an even multiple of bars
 - be sure to use base 0 logic throughout the keyboard so the CV mix mode maths work as intended
+
