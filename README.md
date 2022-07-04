@@ -155,6 +155,6 @@ sequences
 - sync mode
   - delays are run using clock.sync
   - step durations are stored in beats
-  - final step(s) durations are rounded down to the nearest bar, the total sum of step durations should be an even multiple of bars
+  - final step(s) durations are rounded to the nearest bar, the total sum of step durations should be an even multiple of bars
 - be sure to use base 0 logic throughout the keyboard so the CV mix mode maths work as intended
 
