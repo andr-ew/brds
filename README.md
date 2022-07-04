@@ -120,7 +120,20 @@ crow input destiations
 - global clock
 - UI either in the mix menu or as the K1 alt screen (I like mix menu)
 
-engine output (orgn)
+output destinations
+- engine 1-5
+- cv crow 1+2
+- cv crow 2+3
+- ii jf 1-6
+- ii crow 1+2
+- ii crow 3+4
+- (someday: w/syn)
+
+grow gate out modes:
+- function 1
+- function 2
+- gate
+- trig
 
 ## implementation
 
