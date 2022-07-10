@@ -4,16 +4,32 @@ cv & ii gesture router
 
 3-track grid keyboard with pattern recording, slew. routed into a 5-output patch bay, with built-in shift-registers (for pseudo-polyphony) and muti-mode CV mixing. each output addresses either a crow voltage + function generator or an individual voice of just friends.
 
-# documentation
+## hardware
 
-## norns
+**required**
+
+- norns (220321 or later)
+- grid (128 only)
+- crow
+
+**also supported**
+
+- just friends
+
+## install
+
+~ not done yet ~
+
+## documentation
+
+### norns
 
 - **E1-E3:** envelope time, slope, shape
 - **K2:** envelope focus
 - **K3:** envelope loop
 - **K1:** alt
 
-## grid
+### grid
 
 ![brds grid docs](doc/brds.png)
 
