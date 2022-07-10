@@ -8,9 +8,9 @@ cv & ii gesture router
 
 **required**
 
-- norns (220321 or later)
-- grid (128 only)
-- crow
+- [norns](https://github.com/p3r7/awesome-monome-norns) (220321 or later)
+- [grid](https://monome.org/docs/grid/) (128 only)
+- [crow](https://monome.org/docs/crow/)
 
 **also supported**
 
