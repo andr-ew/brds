@@ -14,7 +14,7 @@ cv & ii gesture router
 
 **also supported**
 
-- just friends
+- [just friends](https://www.whimsicalraps.com/products/just-friends?variant=5586981781533)
 
 ## install
 
