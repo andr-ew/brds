@@ -64,3 +64,9 @@ grow gate out modes:
 - function 2
 - gate
 - trig
+
+options UI
+- mixing mode
+- sync
+- jf run fraction
+- w/syn fraction
