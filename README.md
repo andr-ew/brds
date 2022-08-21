@@ -72,5 +72,4 @@ options UI
 - jf run fraction
 - w/syn fraction
 - orgn fraction
-- w/syn brightness
-- orgn brightness
+- w/syn controls
