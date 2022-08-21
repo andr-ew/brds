@@ -41,7 +41,6 @@ cv mixing modes
 - sum
 - diff
 - min
-- random (maybe)
 
 sync mode
 - parameter recorders are synced to bars
