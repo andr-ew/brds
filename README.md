@@ -57,7 +57,8 @@ output destinations
 - ii jf 1-6
 - ii crow 1+2
 - ii crow 3+4
-- (someday: w/syn)
+- w/syn 1-x
+- orgn 1-x
 
 grow gate out modes:
 - function 1
@@ -70,3 +71,6 @@ options UI
 - sync
 - jf run fraction
 - w/syn fraction
+- orgn fraction
+- w/syn brightness
+- orgn brightness
