@@ -35,12 +35,16 @@ cv & ii gesture router
 
 ## notes
 
-cv mixing modes
-- normal (priority by track #)
-- max
-- sum
-- diff
-- min
+cv mixing 
+- mix x & y coordinites, then map to scale
+- independently assign modes for x & y axes
+- mixed keymaps (1-5) are displayed on screen when not in output focus
+- modes
+  - normal (priority by track #)
+  - max
+  - sum
+  - diff
+  - min
 
 sync mode
 - parameter recorders are synced to bars
