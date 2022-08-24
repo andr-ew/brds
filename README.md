@@ -39,8 +39,10 @@ cv mixing
 - mix x & y coordinites, then map to scale
 - independently assign modes for x & y axes
 - mixed keymaps (1-5) are displayed on screen when not in output focus
+- edit x & y modes when not in output focus
 - modes
-  - normal (priority by track #)
+  - top (track)
+  - bottom (track)
   - max
   - sum
   - diff
