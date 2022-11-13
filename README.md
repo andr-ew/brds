@@ -14,7 +14,8 @@ cv & ii gesture router
 
 **also supported**
 
-- [just friends](https://www.whimsicalraps.com/products/just-friends?variant=5586981781533)
+- [just](https://www.whimsicalraps.com/products/just-friends?variant=5586981781533) [friends](https://github.com/whimsicalraps/Just-Friends/blob/main/Just-Type.md)
+- second crow (over ii)
 
 ## install
 
