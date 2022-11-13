@@ -63,7 +63,6 @@ cv mixing
 crow input destiations
 - function 1 & 2 gate in
 - output 1-5 transpose (oct or scale degree)
-- global clock
 - jf pitch bend
 
 output destinations
