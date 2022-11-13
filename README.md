@@ -2,7 +2,7 @@
 
 cv & ii gesture router
 
-3-track grid keyboard with pattern recording, slew. routed into a 5-output patch bay, with built-in shift-registers (for pseudo-polyphony) and muti-mode CV mixing. each output addresses either a crow voltage + function generator or an individual voice of just friends.
+3-track grid keyboard with pattern recording, slew. routed into a 5-output patch bay / voice allocator with muti-mode CV mixing. each output addresses either a crow voltage + function generator or an individual voice of just friends.
 
 ## hardware
 
