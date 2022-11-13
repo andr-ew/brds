@@ -24,10 +24,22 @@ cv & ii gesture router
 
 ### norns
 
-- **E1-E3:** envelope time, slope, shape
-- **K2:** envelope focus
-- **K3:** envelope loop
-- **K1:** alt
+- **E1:** page focus
+- **pages:**
+  - function 1 & 2
+    - **E2:** time
+    - **E3:** ramp
+    - **K2:** shape
+    - **K3:** trns/sus/cyc
+  - jf
+    - **E2:** note level
+    - **E3:** run
+    - **K2:** synth mode
+    - **K3:** GOD
+  - mix mode
+    - **E2:** mode x
+    - **E3:** mode y
+- **K1 (hold):** scale
 
 ### grid
 
