@@ -50,8 +50,7 @@ cv & ii gesture router
 cv mixing 
 - mix x & y coordinites, then map to scale
 - independently assign modes for x & y axes
-- mixed keymaps (1-5) are displayed on screen when not in output focus
-- edit x & y modes when not in output focus
+- mixed keymaps (1-5) are displayed on screen
 - modes
   - top (track)
   - bottom (track)
@@ -59,9 +58,6 @@ cv mixing
   - sum
   - diff
   - min
-
-sync mode
-- parameter recorders are synced to bars
 
 crow input destiations
 - function 1 & 2 gate in
