@@ -25,7 +25,7 @@ cv & ii gesture router
 ### norns
 
 - **E1:** page focus
-- **pages:**
+- pages:
   - function 1 & 2
     - **E2:** time
     - **E3:** ramp
