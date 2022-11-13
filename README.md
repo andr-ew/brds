@@ -27,15 +27,15 @@ cv & ii gesture router
 - **E1:** page focus
 - pages:
   - function 1 & 2
+     - **K2:** shape
+    - **K3:** trns/sus/cyc
     - **E2:** time
     - **E3:** ramp
-    - **K2:** shape
-    - **K3:** trns/sus/cyc
   - jf
-    - **E2:** note level
-    - **E3:** run
     - **K2:** synth mode
     - **K3:** GOD
+    - **E2:** note level
+    - **E3:** run
   - mix mode
     - **E2:** mode x
     - **E3:** mode y
