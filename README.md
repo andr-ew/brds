@@ -73,3 +73,5 @@ output destinations
 - ii crow cv + gate 3+4
 
 idea: voice allocation rather than shift registers (true polphony w/ voice stealing)
+
+memory modes: shared, unique
