@@ -80,4 +80,3 @@ patterns: sync leader
 - options: 1, 2, 3, clock
 - how to incorporate in UI?
   - under K1 alt menu
-  - hold two memory slot keys. second key pressed is leads for that track
