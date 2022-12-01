@@ -76,7 +76,7 @@ idea: voice allocation rather than shift registers (true polphony w/ voice steal
 
 memory modes: shared, unique
 
-patterns: tempo leader
+patterns: sync leader
 - options: 1, 2, 3, clock
 - how to incorporate in UI?
   - under K1 alt menu
