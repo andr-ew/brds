@@ -75,3 +75,9 @@ output destinations
 idea: voice allocation rather than shift registers (true polphony w/ voice stealing)
 
 memory modes: shared, unique
+
+patterns: tempo leader
+- options: 1, 2, 3, clock
+- how to incorporate in UI?
+  - under K1 alt menu
+  - hold two memory slot keys. second key pressed is leads for that track
