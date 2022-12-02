@@ -80,3 +80,12 @@ patterns: sync leader
 - options: 1, 2, 3, clock
 - how to incorporate in UI?
   - under K1 alt menu
+  
+### implimentation
+
+voice allocation:
+- free voice buffer: last in, first out
+- voice stealing buffer: first in, first out
+- pattern recording works via the momentary component state, and then those deltas feed the voice allocator.
+
+when env is not in sustain mode, voice is only allocated for a half second or so (just to blink on the grid)
