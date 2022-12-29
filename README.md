@@ -2,7 +2,7 @@
 
 cv & ii gesture router
 
-3-track grid keyboard with pattern memory & slew routed into a 5-output patch bay & shift register with muti-mode CV mixing. each output addresses either a crow voltage + function generator or an ii destination.
+3-track grid keyboard with pattern memory & slew routed into a 5-output patch bay & shift register with muti-mode CV mixing. each output addresses either a crow voltage + function generator, an ii destination, or a monophonic midi channel
 
 ## hardware
 
