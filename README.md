@@ -28,7 +28,7 @@ cv & ii gesture router
 - **E1:** page focus
 - pages:
   - function 1 & 2
-     - **K2:** shape
+    - **K2:** shape
     - **K3:** trns/sus/cyc
     - **E2:** time
     - **E3:** ramp
@@ -48,7 +48,7 @@ cv & ii gesture router
 
 ## notes
 
-cv mixing 
+cv mixing
 - mix x & y coordinites, then map to scale
 - independently assign modes for x & y axes
 - mixed keymaps (1-5) are displayed on screen
@@ -71,6 +71,8 @@ output destinations
 - ii jf 1-6
 - ii crow cv + gate 1+2
 - ii crow cv + gate 3+4
+- midi ch 1-6
+- midi dev 1-6
 
 memory modes: shared, unique
 
