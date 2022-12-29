@@ -2,7 +2,7 @@
 
 cv & ii gesture router
 
-3-track grid keyboard with pattern memory & slew routed into a 5-output patch bay / voice allocator with muti-mode CV mixing. each output addresses either a crow voltage + function generator or an ii destination.
+3-track grid keyboard with pattern memory & slew routed into a 5-output patch bay & shift register with muti-mode CV mixing. each output addresses either a crow voltage + function generator or an ii destination.
 
 ## hardware
 
@@ -72,8 +72,6 @@ output destinations
 - ii crow cv + gate 1+2
 - ii crow cv + gate 3+4
 
-idea: voice allocation rather than shift registers (true polphony w/ voice stealing)
-
 memory modes: shared, unique
 
 patterns: sync leader
@@ -81,11 +79,10 @@ patterns: sync leader
 - how to incorporate in UI?
   - under K1 alt menu
   
-### implimentation
-
-voice allocation:
-- pattern recording works via the momentary component state, and then those deltas feed the voice allocator.
-- free voice buffer: last in, first out
-- voice stealing buffer: first in, first out
-
-when env is not in sustain mode, voice is only allocated for a half second or so (just to blink on the grid)
+idea: voice allocation rather than shift registers (true polphony w/ voice stealing)
+- this would be harder / also different results than shift registers
+- implimentation
+  - pattern recording works via the momentary component state, and then those deltas feed the voice allocator.
+  - free voice buffer: last in, first out
+  - voice stealing buffer: first in, first out
+  - when env is not in sustain mode, voice is only allocated for a half second or so (just to blink on the grid)
